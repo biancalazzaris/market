@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dengue">
+    package="com.example.market">
 
     <application
         android:allowBackup="true"
@@ -9,21 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Dengue">
-        <activity android:name=".CarrinhoActivity" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name="com.example.market.CarrinhoActivity" android:parentActivityName="com.example.market.MainActivity"></activity>
         <activity
-            android:name=".PerfilActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.example.market.PerfilActivity"
+            android:parentActivityName="com.example.market.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.market.MainActivity" />
         </activity>
         <activity
-            android:name=".PedidosActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.example.market.PedidosActivity"
+            android:parentActivityName="com.example.market.MainActivity" />
         <activity
-            android:name=".ContatoActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+            android:name="com.example.market.ContatoActivity"
+            android:parentActivityName="com.example.market.MainActivity" />
+        <activity android:name="com.example.market.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.example.dengue;
+package com.example.market;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 
 public class PedidosActivity extends AppCompatActivity {
-public static final String MENSAGEM = "com.mobile.dengue.MENSAGEM";
-public static final String NOME = "com.mobile.dengue.NOME";
+public static final String MENSAGEM = "com.mobile.market.MENSAGEM";
+public static final String NOME = "com.mobile.market.NOME";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

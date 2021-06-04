@@ -1,4 +1,4 @@
-package com.example.dengue;
+package com.example.market;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,15 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class PerfilActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perfil);
+        setContentView(R.layout.activity_main);
     }
-    public void abrirMain(View novaview)  {
-        Intent intencao = new Intent(this, MainActivity.class);
+    public void abrirPedidos(View novaview)  {
+        Intent intencao = new Intent(this, PedidosActivity.class);
         startActivity(intencao);
     }
 }
+

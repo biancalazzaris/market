@@ -1,4 +1,4 @@
-package com.example.dengue;
+package com.example.market;
 
 import org.junit.Test;
 
